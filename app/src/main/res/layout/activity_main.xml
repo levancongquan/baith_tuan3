@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img_1"
+    >
+
+
+      <Button
+          android:id="@+id/login"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="login"
+          android:layout_alignParentRight="true"
+          android:layout_marginTop="300dp"
+          android:layout_margin="120dp"
+          android:background="#590823"
+          tools:layout_editor_absoluteX="2dp"
+          tools:layout_editor_absoluteY="310dp"
+          android:layout_centerInParent="true"/>
+
+
+      <Button
+          android:id="@+id/dangky"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_centerInParent="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginLeft="52dp"
+          android:text="singin" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:inputType="textPersonName"
+          android:text="name"
+          android:textColor="#9C27B0"
+          android:layout_marginTop="10dp"
+          android:textSize="20dp"
+
+          tools:ignore="MissingConstraints"
+          tools:layout_editor_absoluteX="11dp"
+          tools:layout_editor_absoluteY="29dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginTop="50dp"
+          android:inputType="textPersonName"
+          android:text="mat khau"
+          android:textColor="#9C27B0"
+          android:textSize="20dp" />
+</RelativeLayout>
